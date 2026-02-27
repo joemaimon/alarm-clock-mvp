@@ -31,6 +31,7 @@ button {
   background: #4f7cff; color: #fff; font-weight: 700;
 }
 .summary { margin-top: 12px; color: #cfe0ff; }
+.status { margin-top: 10px; color: #9fe3b0; font-size: 13px; }
 
 table { width: 100%; border-collapse: collapse; }
 th, td { padding: 10px; border-bottom: 1px solid #2a3a62; text-align: left; font-size: 13px; }

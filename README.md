@@ -23,10 +23,10 @@ Production-oriented starter for an anti-oversleep app with:
 
 ### Dashboard
 - KPI cards (success rate, streak, fail count, avg dismiss)
-- 14-day trend chart placeholder
-- Alarm config list
+- Clean wake setup flow (voice phrase + task + escalation)
 - Session history table
-- Escalation profile editor panel
+- Supabase-ready persistence for wake plan + sessions (with localStorage fallback)
+- Setup guide: `apps/dashboard/SUPABASE_SETUP.md`
 
 ## Next steps to make this fully production-ready
 1. Add Android native modules for exact alarms + foreground service
