@@ -1,0 +1,54 @@
+:root {
+  color-scheme: dark;
+  font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+  background: #080d1c;
+  color: #e9eeff;
+}
+
+body { margin: 0; background: #080d1c; }
+.page { max-width: 1100px; margin: 0 auto; padding: 24px; }
+header h1 { margin: 0; }
+header p { color: #9fb0d6; margin-top: 8px; }
+
+.kpis {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 12px;
+  margin: 18px 0;
+}
+.card, .panel {
+  background: #121b34;
+  border: 1px solid #28385f;
+  border-radius: 12px;
+  padding: 14px;
+}
+.card-title { color: #9fb0d6; font-size: 13px; }
+.card-value { font-size: 30px; font-weight: 800; margin: 8px 0; }
+.card-sub { color: #9fb0d6; font-size: 12px; }
+
+.grid2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+@media (max-width: 800px) { .grid2 { grid-template-columns: 1fr; } }
+
+.list { padding-left: 18px; color: #d8e0fb; }
+label { display: block; margin-bottom: 8px; font-size: 13px; color: #cbd6f6; }
+input {
+  width: 100%; margin-top: 4px; padding: 8px 10px;
+  border-radius: 8px; border: 1px solid #334775;
+  background: #0e1630; color: #fff;
+}
+button {
+  margin-top: 8px; padding: 10px 12px; border-radius: 8px; border: 0;
+  background: #4f7cff; color: #fff; font-weight: 700;
+}
+
+table { width: 100%; border-collapse: collapse; }
+th, td { padding: 10px; border-bottom: 1px solid #2a3a62; text-align: left; font-size: 13px; }
+th { color: #9fb0d6; }
+
+.chip { padding: 3px 8px; border-radius: 999px; font-size: 11px; font-weight: 700; }
+.chip.ok { background: #1f7a4f; }
+.chip.bad { background: #9a2f48; }
